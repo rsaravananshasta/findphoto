@@ -116,11 +116,7 @@ class Childhood extends Component {
             Alert.warning('Please select the answer', {
                 effect: 'slide'
             });
-        }
-        
-        
-
-        
+        }   
        
     }
 

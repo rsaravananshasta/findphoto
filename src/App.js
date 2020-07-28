@@ -34,12 +34,14 @@ const Findme = (props) => {
 
 function App() {
   return (
+    <div>
     <Router>
       <Switch>
           <Route exact path="/findme/:id"  component={Findme}  />
           <Route exact path="/submitPhoto"  component={SubmitPhoto}  />
       </Switch>
     </Router>
+    <Alert stack={{limit: 3}} /></div>
   );
 }
 
